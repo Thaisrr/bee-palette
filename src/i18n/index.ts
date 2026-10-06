@@ -18,7 +18,7 @@ function detectLocale(): Locale {
 }
 
 // Le générique oblige en.json à avoir exactement les mêmes clés que fr.json
-export const i18n = createI18n<[MessageSchema], Locale>({
+export const i18n = createI18n<[MessageSchema], Locale, false>({
     legacy: false,
     locale: detectLocale(),
     fallbackLocale: 'en',
