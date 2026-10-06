@@ -91,13 +91,13 @@
       "muted": "Texte atténué sur fond",
       "onPrimary": "Texte sur principale",
       "accent": "Accent sur fond",
-      "uiTitle": "Éléments d'interface (3:1 minimum)",
-      "ui": {
-        "success": "Succès sur fond",
-        "error": "Erreur sur fond",
-        "warning": "Avertissement sur fond",
-        "info": "Information sur fond"
-      }
+      "uiTitle": "Éléments d'interface (3:1 minimum)"
+    },
+    "ui": {
+      "success": "Succès sur fond",
+      "error": "Erreur sur fond",
+      "warning": "Avertissement sur fond",
+      "info": "Information sur fond"
     },
     "level": {
       "aaa": "AAA",
