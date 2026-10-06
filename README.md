@@ -71,8 +71,8 @@ Tu règles tes couleurs, tes polices et tes espacements à gauche, tu vois le r�
 Prérequis : Node.js 20 ou plus récent.
 
 ```bash
-git clone À-COMPLÉTER
-cd beepalette
+git clone https://github.com/Thaisrr/bee-palette.git
+cd bee-palette
 npm install
 npm run dev
 ```
