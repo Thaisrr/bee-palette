@@ -1,0 +1,158 @@
+{
+  "app": { "title": "BeePalette, Beedesign theme generator" },
+  "locale": { "label": "Language" },
+  "settings": {
+    "ariaLabel": "Theme settings",
+    "colors": {
+      "title": "Colors",
+      "primary": "Primary",
+      "accent": "Accent",
+      "background": "Background",
+      "text": "Text",
+      "autoShades": "Automatic shades",
+      "picker": "{name}, color picker"
+    },
+    "modeName": { "light": "light", "dark": "dark" },
+    "advanced": {
+      "title": "Advanced",
+      "reset": "Reset advanced options",
+      "spacingHint": "Each value replaces the step computed from the scale.",
+      "shadesNote": "Edits the {mode} mode shades.",
+      "alertsNote": "Edits the {mode} mode colors.",
+      "groups": {
+        "spacing": "Spacing",
+        "shape": "Radius, borders and focus",
+        "controls": "Controls",
+        "text": "Text sizes",
+        "alerts": "Alert colors"
+      },
+      "fields": {
+        "spaceSm": "Small",
+        "spaceMd": "Medium",
+        "spaceLg": "Large",
+        "radiusSm": "Small radius",
+        "borderWidth": "Border",
+        "borderStrong": "Strong border",
+        "focusWidth": "Focus ring",
+        "focusOffset": "Focus offset",
+        "stripeWidth": "Alert stripe",
+        "buttonEdge": "Button edge",
+        "controlHeight": "Control height",
+        "closeSize": "Close button",
+        "fontSm": "Small text",
+        "fontMd": "Body text",
+        "fontLg": "Large text"
+      },
+      "alerts": { "success": "Success", "error": "Error", "warning": "Warning", "info": "Information" },
+      "targets": {
+        "error": "Below 24 px, buttons are hard to tap (WCAG 2.2 minimum, level AA).",
+        "warning": "Below 44 px, buttons are less comfortable to tap. 44 px is the recommended size."
+      }
+    },
+    "shades": {
+      "hover": "Hover",
+      "edge": "Edge",
+      "light": "Light",
+      "medium": "Medium"
+    },
+    "typography": {
+      "title": "Typography",
+      "headings": "Headings",
+      "body": "Body",
+      "placeholder": "Font",
+      "noResults": "No font found",
+      "loading": "Loading fonts…"
+    },
+    "spacing": { "title": "Spacing", "scale": "Scale" },
+    "radius": { "title": "Radius", "medium": "Medium radius" },
+    "shadows": {
+      "title": "Shadows",
+      "legend": "Shadow style",
+      "soft": "Soft",
+      "strong": "Strong"
+    }
+  },
+  "fonts": {
+    "error": {
+      "missingKey": "Missing Google Fonts API key (VITE_GOOGLE_FONTS_API_KEY).",
+      "network": "Could not load the Google Fonts list."
+    }
+  },
+  "mode": { "legend": "Theme mode", "light": "Light", "dark": "Dark" },
+  "analysis": {
+    "ariaLabel": "Theme analysis",
+    "contrast": {
+      "title": "Accessibility and contrast",
+      "sizeLegend": "Text size",
+      "normal": "Normal text",
+      "large": "Large text",
+      "hint": "Large text: 24 px and up, or 18.66 px and up when bold.",
+      "text": "Text on background",
+      "muted": "Muted text on background",
+      "onPrimary": "Text on primary",
+      "accent": "Accent on background",
+      "uiTitle": "Interface elements (3:1 minimum)"
+    },
+    "ui": {
+      "success": "Success on background",
+      "error": "Error on background",
+      "warning": "Warning on background",
+      "info": "Information on background"
+    },
+    "level": { "aaa": "AAA", "aa": "AA", "largeOnly": "Large text only", "fail": "Below 3:1", "pass":  "Pass"},
+    "surfaces": {
+      "title": "Surface distribution",
+      "barLabel": "Color distribution on a typical page",
+      "note": "Estimate for a typical page, to refine with the mockup.",
+      "roles": {
+        "bg": "Background", "surface": "Surface", "text": "Text", "muted": "Muted text",
+        "primary": "Primary", "primaryLight": "Light primary", "border": "Borders", "accent": "Accent"
+      },
+      "groups": { "dominant": "dominant", "secondary": "secondary", "accent": "accent" }
+    }
+  },
+  "preview": {
+    "title": "Theme preview",
+    "tabs": { "label": "Preview view", "mockup": "Mockup", "components": "Components" },
+    "mockupLabel": "Example site mockup with the theme applied",
+    "components": {
+      "button": "Button",
+      "tagA": "New",
+      "tagB": "Design",
+      "tagC": "v1.0",
+      "cardTitle": "Card title",
+      "cardText": "Surface, border and shadow.",
+      "closeLabel": "Close",
+      "alerts": {
+        "success": "Saved successfully",
+        "error": "Something went wrong",
+        "warning": "Check this field",
+        "info": "A helpful piece of information"
+      }
+    }
+  },
+  "header": {
+    "export": "Export",
+    "darkMode": "Switch to dark mode",
+    "lightMode": "Switch to light mode",
+    "language": "Language: {current} ({code}). Switch to {next}"
+  },
+  "export": {
+    "title": "Export",
+    "formatLegend": "File format",
+    "formats": {
+      "beedesign": { "label": "For Beedesign", "hint": "--bd-* variables to paste after the library stylesheet" },
+      "starter": { "label": "Starter CSS", "hint": "Variables, reset and base styles for a site without Beedesign" }
+    },
+    "codeLabel": "Generated CSS preview",
+    "lines": "{count} line | {count} lines",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "copyFailed": "Copy failed: select the code manually.",
+    "download": "Download .css",
+    "comment": {
+      "header": "Theme generated with BeePalette",
+      "noChanges": "No changes compared to the default Beedesign theme."
+    }
+  }
+}

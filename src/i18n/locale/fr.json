@@ -1,0 +1,165 @@
+{
+  "app": { "title": "BeePalette, générateur de thème Beedesign" },
+  "locale": { "label": "Langue" },
+  "settings": {
+    "ariaLabel": "Réglages du thème",
+    "colors": {
+      "title": "Couleurs",
+      "primary": "Principale",
+      "accent": "Accent",
+      "background": "Fond",
+      "text": "Texte",
+      "autoShades": "Nuances automatiques",
+      "picker": "{name}, sélecteur de couleur"
+    },
+    "modeName": { "light": "clair", "dark": "sombre" },
+    "advanced": {
+      "title": "Avancé",
+      "reset": "Réinitialiser les options avancées",
+      "spacingHint": "Chaque valeur remplace le palier calculé par l'échelle.",
+      "shadesNote": "Modifie les nuances du mode {mode}.",
+      "alertsNote": "Modifie les couleurs du mode {mode}.",
+      "groups": {
+        "spacing": "Espacements",
+        "shape": "Arrondis, bordures et focus",
+        "controls": "Contrôles",
+        "text": "Tailles de texte",
+        "alerts": "Couleurs des alertes"
+      },
+      "fields": {
+        "spaceSm": "Petit",
+        "spaceMd": "Moyen",
+        "spaceLg": "Grand",
+        "radiusSm": "Petit arrondi",
+        "borderWidth": "Bordure",
+        "borderStrong": "Bordure forte",
+        "focusWidth": "Anneau de focus",
+        "focusOffset": "Décalage du focus",
+        "stripeWidth": "Bande d'alerte",
+        "buttonEdge": "Relief du bouton",
+        "controlHeight": "Hauteur des contrôles",
+        "closeSize": "Bouton fermer",
+        "fontSm": "Petit texte",
+        "fontMd": "Texte courant",
+        "fontLg": "Grand texte"
+      },
+      "alerts": { "success": "Succès", "error": "Erreur", "warning": "Avertissement", "info": "Information" },
+      "targets": {
+        "error": "Sous 24 px, les boutons sont difficiles à toucher (minimum WCAG 2.2, niveau AA).",
+        "warning": "Sous 44 px, les boutons sont moins faciles à toucher. 44 px est la taille recommandée."
+      }
+    },
+    "shades": {
+      "hover": "Survol",
+      "edge": "Arête",
+      "light": "Claire",
+      "medium": "Moyenne"
+    },
+    "typography": {
+      "title": "Typographie",
+      "headings": "Titres",
+      "body": "Texte",
+      "placeholder": "Police",
+      "noResults": "Aucune police trouvée",
+      "loading": "Chargement des polices…"
+    },
+    "spacing": { "title": "Espacements", "scale": "Échelle" },
+    "radius": { "title": "Arrondis", "medium": "Rayon moyen" },
+    "shadows": {
+      "title": "Ombres",
+      "legend": "Style des ombres",
+      "soft": "Douces",
+      "strong": "Marquées"
+    }
+  },
+  "fonts": {
+    "error": {
+      "missingKey": "Clé API Google Fonts manquante (VITE_GOOGLE_FONTS_API_KEY).",
+      "network": "Impossible de charger la liste des polices Google Fonts."
+    }
+  },
+  "mode": { "legend": "Mode du thème", "light": "Clair", "dark": "Sombre" },
+  "analysis": {
+    "ariaLabel": "Analyse du thème",
+    "contrast": {
+      "title": "Accessibilité et contraste",
+      "sizeLegend": "Taille du texte",
+      "normal": "Texte normal",
+      "large": "Grand texte",
+      "hint": "Grand texte : 24 px et plus, ou 18,66 px et plus en gras.",
+      "text": "Texte sur fond",
+      "muted": "Texte atténué sur fond",
+      "onPrimary": "Texte sur principale",
+      "accent": "Accent sur fond",
+      "uiTitle": "Éléments d'interface (3:1 minimum)",
+      "ui": {
+        "success": "Succès sur fond",
+        "error": "Erreur sur fond",
+        "warning": "Avertissement sur fond",
+        "info": "Information sur fond"
+      }
+    },
+    "level": {
+      "aaa": "AAA",
+      "aa": "AA",
+      "largeOnly": "Grand texte seulement",
+      "fail": "Sous 3:1",
+      "pass": "Conforme"
+    },
+    "surfaces": {
+      "title": "Répartition des surfaces",
+      "barLabel": "Répartition des couleurs sur une page type",
+      "note": "Estimation sur une page type, à affiner avec la maquette.",
+      "roles": {
+        "bg": "Fond", "surface": "Surface", "text": "Texte", "muted": "Texte atténué",
+        "primary": "Principale", "primaryLight": "Principale claire", "border": "Bordures", "accent": "Accent"
+      },
+      "groups": { "dominant": "dominante", "secondary": "secondaire", "accent": "accent" }
+    }
+  },
+  "preview": {
+    "title": "Aperçu du thème",
+    "tabs": { "label": "Vue de l'aperçu", "mockup": "Maquette", "components": "Composants" },
+    "mockupLabel": "Maquette d'un site d'exemple avec le thème appliqué",
+    "components": {
+      "button": "Bouton",
+      "tagA": "Nouveau",
+      "tagB": "Design",
+      "tagC": "v1.0",
+      "cardTitle": "Titre de carte",
+      "cardText": "Surface, bordure et ombre.",
+      "closeLabel": "Fermer",
+      "alerts": {
+        "success": "Enregistré avec succès",
+        "error": "Une erreur est survenue",
+        "warning": "Vérifiez ce champ",
+        "info": "Une information utile"
+      }
+    }
+  },
+  "header": {
+    "export": "Exporter",
+    "darkMode": "Passer en mode sombre",
+    "lightMode": "Passer en mode clair",
+    "language": "Langue : {current} ({code}). Changer pour {next}"
+  },
+  "export": {
+    "title": "Export",
+    "formatLegend": "Format du fichier",
+
+    "formats": {
+      "beedesign": { "label": "Pour Beedesign", "hint": "Variables --bd-* à coller après la feuille de la lib" },
+      "starter": { "label": "CSS de départ", "hint": "Variables, reset et bases pour un site sans Beedesign" }
+    },
+    "codeLabel": "Aperçu du CSS généré",
+    "lines": "{count} ligne | {count} lignes",
+    "copy": "Copier",
+    "copied": "Copié !",
+    "copyFailed": "Copie impossible : sélectionne le code à la main.",
+    "download": "Télécharger .css",
+    "comment": {
+      "header": "Thème généré avec BeePalette",
+      "noChanges": "Aucune modification par rapport au thème par défaut de Beedesign."
+    }
+  }
+}
