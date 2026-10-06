@@ -11,6 +11,7 @@ import { googleFontsUrl } from './lib/exportCss'
 import type { Mode } from './lib/theme'
 import { setPageFonts } from './services/fontLoader'
 import { setLocale, type Locale } from './i18n'
+import AppFooter from "@/components/layout/AppFooter.vue";
 
 const { t, locale } = useI18n()
 const { state, mode } = useTheme()
@@ -70,7 +71,14 @@ function goToExport() {
       <div class="app__side app__side--right"><AnalysisPanel /></div>
     </div>
   </div>
-</template>
+  <AppFooter
+      :made-by="t('footer.madeBy')"
+      author="Thaïs"
+      portfolio-url="https://thaislaboure.dev"
+      :portfolio-label="t('footer.portfolio')"
+      source-url="https://github.com/Thaisrr/bee-palette"
+      :source-label="t('footer.source')"
+  /></template>
 
 <style>
 body {
@@ -78,6 +86,7 @@ body {
   background: var(--bd-color-bg);
   color: var(--bd-color-text);
   font-family: var(--bd-font-main);
+  background: var(--bd-color-primary-light);
 }
 html:root {
   --bd-font-main: "DM Sans", system-ui, sans-serif;
@@ -91,9 +100,12 @@ html:root {
 
 .app__side--left {
   border-inline-end: 1px solid var(--bd-color-border);
+  background: var(--bd-color-surface);
 }
 .app__side--right {
   border-inline-start: 1px solid var(--bd-color-border);
+  background: var(--bd-color-surface);
+
 }.app {
    display: flex;
    flex-direction: column;

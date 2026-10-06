@@ -154,5 +154,10 @@
       "header": "Theme generated with BeePalette",
       "noChanges": "No changes compared to the default Beedesign theme."
     }
+  },
+  "footer": {
+    "madeBy": "Made with 🐝 by",
+    "portfolio": "My portfolio",
+    "source": "Source code"
   }
 }

@@ -161,5 +161,10 @@
       "header": "Thème généré avec BeePalette",
       "noChanges": "Aucune modification par rapport au thème par défaut de Beedesign."
     }
+  },
+  "footer": {
+    "madeBy": "Fait avec 🐝 par",
+    "portfolio": "Mon portfolio",
+    "source": "Code source"
   }
 }
